@@ -1,9 +1,14 @@
 import './App.css';
+import ActionBar from './layout/ActionBar';
+import ContentContainer from './layout/ContentContainer';
+import Sidebar from './layout/Sidebar';
 
 export default function App() {
   return (
     <div className="flex">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Sidebar />
+      <ActionBar />
+      <ContentContainer />
     </div>
   );
 }
